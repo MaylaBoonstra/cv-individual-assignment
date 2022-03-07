@@ -1,5 +1,6 @@
 /* Use this file to use your own styles*/
 
+/*#E1E6FA #C4D7ED #ABC8E2 #375D81 #183152 */
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -8,21 +9,21 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #E1E6FA;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #375D81;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #ABC8E2;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #C4D7ED;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +49,12 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color: #375D81;
+}
+
+.border-2 {
+	border-color: #183152 !important;
 }
